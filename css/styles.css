@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    font-size: larger;
+}
+
+.container{
+    /* background-color: yellow; */
+    height: 100%;
+    margin: 0 10%; 
+    position: relative;
+}
+
+.left-container{
+    /* border: 1px solid black; */
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    width: fit-content;
+    
+}
+
+.left-container nav ul{
+    padding-left: 20px;
+}
+
+.left-container nav ul li{
+    padding-bottom: 20px;
+}
+
+.left-nav-btn{
+    border-radius: 20px;
+    padding: 10px 60px;
+    background-color: #1DA1F2;
+    color: white;
+    border-style: none;
+    
+}
+
+.left-nav-btn a{
+    color: white;
+    font-weight: 500;
+}
+
+.middle-container{
+    border: 1px solid lightgrey;
+    height: 100%;
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    padding-top: 10px;
+    
+}
+
+.middle-nav-container{
+    border-bottom: 1px solid lightgrey
+
+}
+
+.middle-nav-container nav{
+    display: flex;
+    justify-content: center;
+    /* margin: auto; */
+    /* align-items: center; */
+}
+
+.middle-nav-container ul{
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+   
+    
+}
+
+.middle-nav-container li{
+    padding: 0 40px;
+}
+
+.new-tweet{
+    /* border: 1px solid black; */
+    padding-top: 10px;
+    height: fit-content;
+    /* position: absolute; */
+}
+
+.profile-image{
+    border-radius: 50%;
+    width: 10%;
+    float: left;
+    margin: 0 20px;
+    
+}
+
+i{
+    padding: 30px 10px;
+}
+
+.new-tweet .icons{
+    position: relative;
+    
+}
+
+
+/* .tweet-btn{
+    position: absolute;
+    left: 400px;
+    bottom:50px;
+    top: 30px;
+} */
+
+.tweet-btn{
+    border-radius: 20px;
+    padding: 5px 20px;
+    background-color: #1DA1F2;
+    color: white;
+    border-style: none;
+    margin-left: 150px;
+    
+}
+
+.tweet-btn a{
+    color: white;
+    font-weight: 500;
+}
+
+.border{
+    border-top: 1px solid lightgray;
+}
+
+.tweet{
+    padding-top: 10px ;
+}
+
+.tweet p{
+    padding-top: 10px;
+}
+.icons{
+    padding-bottom: 10px;
+}
+.tweet i{
+        padding: 10 50 0 10px;
+}
+
+.tweet .dot{
+    position: relative;
+    left: 250px;
+}
+
+
+.right-container{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    left: 75%;  
+}
+
+form{
+    border: none;
+    padding: 0;
+
+}
+
+.no-submit{
+    width: 260px;
+    border: 1px solid #555;
+    display: block;
+    padding: 9px 4px 9px 40px;
+    background: transparent;
+    margin-left: 30px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.trends{
+    width: 260px;
+    height: fit-content;
+    margin-left: 30px;
+    margin-top: 5px;
+    border-radius: 20px;
+    padding-top: 10px;
+    background-color: lightgray;
+}
+
+.left-container nav ul{
+    padding-left: 20px;
+}
+
+.trends li{
+    margin: 20px 20px;
+}
+
+.trends .dot{
+    position: relative;
+    left: 75px
+}
+
