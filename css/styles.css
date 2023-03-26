@@ -206,3 +206,12 @@ form{
     left: 75px
 }
 
+@media only screen and (max-width: 768px) {
+    .left-container, .middle-container, .right-container {
+      position: static;
+      width: 100%;
+      margin: 20px 0;
+    }
+  }
+
+ 
