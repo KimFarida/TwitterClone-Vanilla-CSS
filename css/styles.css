@@ -87,6 +87,11 @@ h1{
     padding: 0 40px;
 }
 
+ li a{
+    font-weight: 700;
+    color: black;
+}
+
 .new-tweet{
     /* border: 1px solid black; */
     padding-top: 10px;
