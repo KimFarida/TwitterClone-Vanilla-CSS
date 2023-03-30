@@ -52,7 +52,9 @@ h1{
     color: white;
     font-weight: 500;
 }
-
+.left-container i{
+    padding-right: 10px;
+}
 .middle-container{
     border: 1px solid lightgrey;
     height: 100%;
@@ -87,6 +89,10 @@ h1{
     padding: 0 40px;
 }
 
+.middle-container i{
+    padding: 30px 10px;
+}
+
  li a{
     font-weight: 700;
     color: black;
@@ -105,10 +111,6 @@ h1{
     float: left;
     margin: 0 20px;
     
-}
-
-.middle-container i{
-    padding: 30px 10px;
 }
 
 .new-tweet .icons{
